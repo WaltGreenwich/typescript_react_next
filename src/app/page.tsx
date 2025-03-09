@@ -1,5 +1,13 @@
+const Button = () => {
+  return <button>Click me</button>;
+};
+
 const Page = () => {
-  return <div>Page</div>;
+  return (
+    <div>
+      <Button />
+    </div>
+  );
 };
 
 export default Page;
